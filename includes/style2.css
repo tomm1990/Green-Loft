@@ -1,0 +1,472 @@
+*{
+    padding : 0;
+    margin: 0;
+}
+
+header, footer, main, nav, aside, section, article{
+    display : block;
+}
+
+a{
+    text-decoration: none ;
+}
+
+body{
+    height : 100%;
+    background : #E9E8EA;
+}
+
+#wrapper{
+    width : 100%;
+    height : 100%;
+    //margin : 0px auto;
+     background: #efefef;
+
+}
+
+header{
+    position: relative;
+    height : 100px;
+    //font-family: tahoma , arial;
+    background : #e9f7eb;
+}
+
+header h1{
+    font-family: "Levenim MT" , arial;
+    color :#419645;
+    font-size: 30px;
+    margin-top: 2.5%;
+    margin-left: 30px;
+    display: inline-block;
+    float : left;
+}
+
+header nav{
+    position: absolute;
+    float : left;
+    display: inline;
+    width : 70%;
+    height : 35%;
+    bottom: 2px;  
+}
+
+header nav ul{
+    width : 100%;
+    list-style: none;
+    height : 100%;
+    
+}
+
+header nav ul li{
+    display : inline;
+    font-family: "Levenim MT" , arial;
+    margin : 2px 0px 13px 30px;
+    font-size : 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color : #62ae6e;
+    transition: 0.25s ease-in;
+}
+
+nav ul li a:hover , a:focus , a:active{
+    text-decoration: none;
+    color : #62ae6e;
+    border-bottom: 5px solid #419645;
+    cursor: pointer;
+}
+
+.activeLine{
+    text-decoration: none;
+    color : #62ae6e;
+    border-bottom: 5px solid #419645;
+    cursor: pointer;
+}
+#logo{
+	float:left;
+	width: 62px;
+	height: 80px;
+	background: url('../images/logo.png') no-repeat;
+	margin-top: 11px;
+	margin-left: 13px;
+}
+
+.signArea{
+    margin: auto;
+    float : right ;
+    height : 30px;
+    width : 155px;
+}
+
+
+
+.signArea a{
+    margin-top: 6px;
+    text-decoration: none;
+    display : inline-block;
+    font-family: "Levenim MT" , arial;
+    font-weight: 400;
+    margin-right:20px;
+    height : 100%;
+    color : #008ed8;
+}
+
+.signArea a:hover , a:active , a:focus{
+    border-bottom: 5px solid #008ed8;
+}
+
+main{
+    float: left;
+    width : 100%;
+    height : 800px;
+}
+
+#mainIndex{
+    background: url(../images/Vegtables.png)no-repeat #000000;
+    //background: url(../images/Chives.png) no-repeat;
+}
+
+#asideAppointment{
+    float: left;
+    width : 40%;
+    height : 700px;
+    background: url(../images/lab.png) no-repeat;
+}
+
+#mainAppointment{
+    background: #ffffff;
+    width : 60%;
+    height : 700px;
+}
+
+#mainAppointment h1{
+    font-family: "Levenim MT" , arial;
+    color :#000;
+    font-size: 15px;
+    margin-top: 2.5%;
+    margin-left: 30px;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+}
+
+#myScheduler{
+    width : 90%;
+    padding : 13px;
+    margin: auto;
+}
+
+#mainAppointment .scheduler-base-content{
+    height : 535px;
+}
+
+#mainAppointment .scheduler-today-hd{
+    color : #62ae6e;
+    border-bottom : 3px solid #62ae6e;
+}
+
+#mainAppointment .scheduler-view-day-header-day {
+    color : #62ae6e;
+}
+
+.mainChooseArea{
+    margin: auto;
+    width : 80%;
+    margin-top: 10%;
+    height : 300px;
+}
+
+.mainChoose{
+    background : rgba(0, 0, 0, 0.55);
+    width : 340px;
+    height : 180px;
+    border-radius: 10px;
+    float : left;
+    color : #e9f7eb;
+    font-family: "Levenim MT" , arial;
+    margin: 10%;
+    text-align: center;
+    line-height: 180px;
+    font-size: 30px;
+    margin-left : 10%;
+    font-weight: 700;
+    transition: 0.25s ease-in;
+}
+
+.mainChoose:hover{
+    cursor: pointer;
+    background : rgba(135, 204, 157, 0.55);
+}
+
+#mainOrder{
+    float: left;
+    height :650px;
+    width : 50%;
+    background: #efefef;
+}
+
+#asideOrder{
+    width : 50%;
+    height : 650px;
+    float : left;
+}
+
+.itemsArea{
+    width : 90%;
+    height : 90%;
+    margin: auto;
+    padding : 10px;
+}
+
+.item{
+    //padding : 13px 10vw 13px 10vw;
+    height : 40px;
+    width : 40%;
+    display : inline-block;
+    float: left;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-right: 13px; 
+}
+
+.item .boot{
+    height : inherit;
+    width : 40px;
+    float: left;
+}
+
+.item .btn-primary{
+    margin-top: 3px;
+    background-color: #62ae6e;
+    border-color: #62ae6e;
+}
+
+.item .btn-primary:hover , .btn-primary:after{
+    background-color: #456d4b;
+    border-color: #456d4b;
+}
+
+.dropdown ul{
+    min-width : 40px;
+}
+
+.item .image{
+    height : inherit;
+    width : 50px;
+    //background: url(../images/Cucumber.png) no-repeat;
+    //background-size: 40px 40px;
+    float : left;
+    margin-left: 4%;
+}
+
+.item h1{
+    font-family: "Levenim MT" , arial;
+    color :#456d4b;
+    font-size: 17px;
+    margin-top: 9px;
+    margin-left: 4%;
+    float: left;
+    text-align: center;
+    font-weight: 900;
+}
+
+#mainAbout{
+    background: #fff;
+    width : 100%;
+    height : 800px;
+    text-align: center;
+    padding: 5%;
+}
+
+#mainAbout h1{
+    font-family: "Levenim MT" , arial;
+    color :#456d4b;
+    font-size: 17px;
+    margin-bottom: -18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#mainAbout img{
+    background: url(../images/vb.png) no-repeat;
+    margin-top : 30px;
+    height : 259px;
+    width : 400px;
+    background-size: 400px 259px;
+    border : 0px;
+    border : 0px solid black;
+}
+
+
+
+.rowsArea{
+    padding-left : 250px;
+    display: block;
+    margin-top: 50px;
+}
+.row{
+    margin-bottom: 10px;
+}
+
+#asideOrder h1{
+    font-family: "Levenim MT" , arial;
+    color :#456d4b;
+    font-size: 17px;
+    margin-bottom: -18px;
+    font-weight: 700;
+    float: left;
+}
+
+#two{
+    margin-left: 115px;
+}
+
+#three{
+    margin-left: 110px;
+}
+
+.btn-success{
+    width : 200px;
+    
+}
+
+#mainAbout h1{
+    width : 50%;
+    margin: auto;
+}
+
+.teamArea{
+    padding-left: 10%;
+    margin-top : 4%;
+}
+
+#teamPlayer{
+    width : 20%;
+    height : 60px;
+    margin: auto;
+    float : left;
+    margin : 1%;
+    
+}
+
+#teamPlayer h1{
+    font-family: "Levenim MT" , arial;
+    color :#456d4b;
+    display : block;
+    margin : 0px 0px 0px 0px;
+    width : 100%;
+}
+
+#teamPlayer h2{
+    font-family: "Levenim MT" , arial;
+    color :#456d4b;
+    font-size: 13px;
+    display : block;
+
+}
+
+#teamPlayer hr{
+    width : 60%;
+    margin: auto;
+    margin-top : 14px;
+    border-color: #456d4b;
+}
+
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left; 
+}
+
+#clear{
+    clear : both;
+}
+
+#wrapperMobile{
+    display: none;
+}
+
+@media screen and (max-width:490px)
+{
+    #wrapper{
+        display: none;
+    }
+    body{
+        max-width: inherit;
+    }
+    #wrapperMobile{
+        padding-top : 24vh;
+        height : 100%;
+        width: 100%;
+        display: block;
+        background-color:#ffffff;
+        background-image:radial-gradient(#5f5f5f 5%,transparent 6%),radial-gradient(#5f5f5f 5%,transparent 6%);
+        background-size:60px 60px;
+        background-position:0 0 , 30px 30px;
+    }
+    
+    .lower{
+        position: relative;
+        margin: auto;
+        width : 80vw;
+        height : 80vw;
+        border: 12px solid #5f5f5f;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        background: #ffffff;
+        transform: rotate(45deg);
+        border-bottom: none;
+        border-right : none;
+        
+    }
+    .lowerButtom h1{
+        text-align: center;
+        margin-top: -80px;
+        color : #5f5f5f;
+        font-family: "Levenim MT" , arial;
+        font-weight: 800;
+        font-size: 4vh;
+        
+    }
+    .lowerButtom{
+        width: inherit;
+        top : 86vw;
+        height : 440px;
+        background: #fff;
+        position: absolute;
+        padding-top: 20px;
+    }
+    .option{
+        position: relative;
+        width : 80%;
+        height : 82px;
+        margin: 0px auto;
+        margin-top: 6vh;
+        background-color: #5f5f5f;
+        background: url('../images/info.png') center no-repeat;  
+        border : 1px solid white;
+        transition: 0.25s ease-in;
+    }
+    .option:hover{
+        cursor: pointer;
+        background: url('../images/infoGreen.png') center no-repeat;
+    }
+    
+    .option h2{
+        margin-top: 84px;
+        text-align: center;
+        color : #5f5f5f;
+        font-family: "Levenim MT" , arial;
+        font-weight: 400;
+        font-size: 2vh;
+    }
+}
